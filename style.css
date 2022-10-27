@@ -10,3 +10,62 @@ body {
 }
 
 /* Add styles here! */
+body {
+  background: hsl(0deg, 0%, 60%);
+  width: 100%;
+}
+
+header {
+  background: hsl(0deg, 0%, 100%);
+  width: 100%;
+  padding: 30px 0;
+  border-bottom: 6px solid hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+  width: 400px;
+}
+
+.title {
+  margin: 40px 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  width: 100%;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  padding-top: 4px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 8px;
+  margin: 64px -16px;
+  border-bottom: 6px solid hsl(0deg, 0%, 40%);
+}
+
+/* Why does the padding on the max-width-wrapper protect the borders of the
+content? */
+
+/* Is the white bar supposed to appear after the main content? If so, then how? */
+
+.indented-heading {
+  width: fit-content;
+  margin: 0;
+  margin-left: -24px;
+  padding: 16px 24px;
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 6px solid hsl(45deg, 100%, 40%);
+}
